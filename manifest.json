@@ -4,7 +4,14 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
-        "default_popup": "popups/base.html",
+        "default_title": "YT-to-Notion",
+        "default_popup": "popups/popup.html",
         "default_icon": "images/notionLogo.png"
+    },
+    "host_permissions": [
+        "https://*.notion.so/*"
+    ],
+    "background": {
+        "service_worker": "scripts/service-worker.js"
     }
 }
