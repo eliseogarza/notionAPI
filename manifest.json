@@ -1,0 +1,10 @@
+{
+    "name": "YouTube-to-Notion",
+    "description": "Take your favorite YouTube videos and add them to your Notion!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "base.html",
+        "default_icon": "notionLogo.png"
+    }
+}
